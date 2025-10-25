@@ -1,4 +1,5 @@
-War Estruturado em C (Desafio Níveis 1-3)
+*War Estruturado em C (Desafio Níveis 1-3)*
+
 Este projeto é uma simulação simplificada do jogo de tabuleiro War, implementada na linguagem C. O código foi desenvolvido de forma incremental, abrangendo três níveis de complexidade, introduzindo conceitos fundamentais de programação estruturada, gerenciamento de memória e lógica de jogo.
 
 🚀 Funcionalidades
