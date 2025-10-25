@@ -2,7 +2,8 @@
 
 Este projeto é uma simulação simplificada do jogo de tabuleiro War, implementada na linguagem C. O código foi desenvolvido de forma incremental, abrangendo três níveis de complexidade, introduzindo conceitos fundamentais de programação estruturada, gerenciamento de memória e lógica de jogo.
 
-🚀 Funcionalidades
+🚀 Funcionalidades:
+
 O programa simula um mapa de jogo onde dois jogadores ("Azul" e "Vermelho") competem para atingir objetivos estratégicos.
 
 Nível 1 (Fundação):
@@ -37,7 +38,8 @@ Atribuição Aleatória: Cada jogador recebe uma missão aleatória no início d
 
 Verificação de Vitória: A cada turno, o sistema verifica se algum jogador cumpriu sua missão e declara o vencedor.
 
-🛠️ Como Compilar e Executar
+🛠️ Como Compilar e Executar:
+
 Este projeto foi escrito em C padrão e pode ser compilado com qualquer compilador C moderno, como o gcc.
 
 Salve o Código: Salve o código fornecido em um arquivo chamado war.c.
@@ -46,10 +48,8 @@ Abra seu Terminal: Navegue até o diretório onde você salvou o arquivo.
 
 Compile o Programa: Execute o seguinte comando para compilar:
 
-Bash
-
-gcc war.c -o war
-gcc: O compilador.
+  gcc war.c -o war
+  gcc: O compilador.
 
 war.c: O seu arquivo fonte.
 
@@ -57,14 +57,14 @@ war.c: O seu arquivo fonte.
 
 Execute o Jogo: Após a compilação bem-sucedida, execute o programa:
 
-Bash
-
 ./war
+
 (No Windows, você pode simplesmente digitar war.exe ou war no CMD/PowerShell).
 
 Siga as Instruções: O programa solicitará primeiro o número de territórios no mapa. Em seguida, pedirá os dados de cada território (nome, cor inicial, tropas). Por fim, o jogo entrará no loop de ataque, onde você poderá simular batalhas e verificar as condições de vitória.
 
-📁 Estrutura do Código
+📁 Estrutura do Código:
+
 O código é modularizado para facilitar a leitura e manutenção:
 
 struct Territorio: Define o tipo de dado base do jogo.
